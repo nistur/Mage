@@ -1,0 +1,15 @@
+[submodule "ext/MScriptExt"]
+	path = ext/MScriptExt
+	url = https://github.com/nistur/MScriptExt.git
+[submodule "ext/MScriptableBehaviour"]
+	path = ext/MScriptableBehaviour
+	url = https://github.com/nistur/MScriptableBehaviour.git
+[submodule "ext/MSaveFile"]
+	path = ext/MSaveFile
+	url = https://github.com/nistur/MSaveFile.git
+[submodule "ext/MEvent"]
+	path = ext/MEvent
+	url = https://github.com/nistur/MEvent.git
+[submodule "ext/MEmbedFile"]
+	path = ext/MEmbedFile
+	url = https://github.com/nistur/MEmbedFile.git
