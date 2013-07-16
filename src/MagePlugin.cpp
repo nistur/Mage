@@ -58,8 +58,11 @@ void StartPlugin(void)
     EMBED(scripts, mage);
     EMBED(scripts, mage_inventory);
 
+	// behaviours don't currently work because readDirectory doesn't allow for
+	// our virtual filesystem yet
     EMBED(behaviors, PointOfInterest);
-    
+
+    // MScriptableBehaviour should start after we've added all embedded files
     MPluginStart(MScriptableBehaviour);
 }
 
